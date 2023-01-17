@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@media (max-width: 650px) {
+  .avatar {
+    max-width: 30vw;
+  }
+
+  .container {
+    max-width: 30vw;
+    font-size: 3vw;
+  }
+}
+
+body {
+  max-width: 100%;
+  background-color: #e9e4e4;
+  color: #0f141e;
+  font: normal 16px "Roboto", sans-;
+  padding: 5px 35px;
+  padding-bottom: 0px;
+}
+
+/* main div */
+.container {
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container div {
+  padding-bottom: 35px;
+  margin-bottom: 40px;
+  border-color: #84878c;
+  background: rgb(219, 214, 214);
+}
+
+/* div 0 */
+.avatar {
+  width: 200px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+/* div 1 */
+.info {
+  background-color: none;
+  padding-left: 3%;
+  padding-top: 0.1em;
+}
+/* h1 */
+h1 {
+  text-align: center;
+  padding-right: 3%;
+}
+
+.info h4,
+.info p {
+  margin: 0;
+  margin-left: 30px;
+}
+
+.info h4 {
+  color: #474a51;
+}
+
+.info p {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* h2 */
+h2 {
+  text-align: center;
+}
+
+/* div 2 */
+.point {
+  border: 2px solid black;
+  width: 100%;
+}
+
+.point ul {
+  padding-left: 95px;
+}
+
+/* div 3 */
+.time {
+  border: 2px solid black;
+  width: 100%;
+}
+
+.time table {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.time table * {
+  width: 29%;
+}
+
+/* div 4 */
+.course {
+  border: 2px solid black;
+}
+
+.course table {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.course table th {
+  padding-bottom: 15px;
+  border-bottom: 2px solid rgb(62, 59, 59);
+  width: 25%;
+}
+
+.course table td {
+  border-collapse: collapse;
+  padding-top: 15px;
+}
+
+/* div 5 */
+.contact {
+  border: 2px solid black;
+}
+
+.contact table {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.contact table a {
+  text-decoration: none;
+}
+
+.contact table a:hover {
+  color: white;
+}
+
+.contact table a:active {
+  color: white;
+}
+
+.contact table a:visited {
+  color: grey;
+}
+
+.contact table a:link {
+  color: black;
+}
