@@ -5,6 +5,7 @@
   .container div{
     max-width: 100vw;
     font-size: 2.5vw;
+    margin-block: -15px;
   }
   .avatar {
     max-width: 20vw;
